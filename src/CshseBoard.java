@@ -52,7 +52,7 @@ public class CshseBoard {
                 if (board[r][c] == null) {
                     piece = "  ";
                 }
-                piece = board[r][c].toString();
+                piece = board[r][c].toString(); // Set the piece
                 System.out.print("|" + piece);
             }
             System.out.print("|");
